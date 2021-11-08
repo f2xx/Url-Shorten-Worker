@@ -69,17 +69,17 @@
 </head>
 <body>
   <div class="card">
-    <h5 class="card-header">🎁 Shorten your URLs !</h5>
+    <h5 class="card-header">💯 开始缩短你的网址吧！</h5>
     <div class="card-body">
-      <h5 class="card-title">Please enter the long URL to be shortened :</h5>
+      <h5 class="card-title">在此键入你需要缩短的网址 :</h5>
       <div class="input-group mb-3">
-        <input type="text" class="form-control" placeholder="Example: https://example.com/" id="text">
+        <input type="text" class="form-control" placeholder="Example: https://XFSS.ML/" id="text">
         <div class="input-group-append">
-          <button class="btn btn-primary" type="button" onclick='shorturl()' id="searchbtn">Shorten it</button>
+          <button class="btn btn-primary" type="button" onclick='shorturl()' id="searchbtn">缩短它</button>
         </div>
       </div>    
       <div class="card-text">
-        <a href="https://github.com/xyTom/Url-Shorten-Worker/" target="_self">Fork me on GitHub</a>
+        <a href="https://xf.gay/" target="_self">XF家的网址缩短工具</a>
       </div>
       <p id="notice"></p>             
     </div>
@@ -88,15 +88,15 @@
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Result</h5>
+          <h5 class="modal-title" id="exampleModalLabel">结果</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
-        <div class="modal-body" id="result">No result</div>
+        <div class="modal-body" id="result">没有结果</div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-primary" onclick='copyurl("result")' data-toggle="popover" data-placement="bottom" data-content="Copied!">Copy</button>
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>    
+          <button type="button" class="btn btn-primary" onclick='copyurl("result")' data-toggle="popover" data-placement="bottom" data-content="已复制!">复制</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">关闭</button>    
         </div>
       </div>
     </div>
